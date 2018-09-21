@@ -7,9 +7,9 @@ spring:
       config:
         server:
           git:
-            uri: https://56tj.5upm.net/git/OilCardService.git
+            uri: https://github.com/qfttxq/demo.git
             search-paths: config-repo
-            #search-paths: config-repo-tst
-            username: terjoy
-            password: terjoy#$123456
-        label: master
+            username: qfttxq
+            password: qftt08053318
+        profile: dev
+        label: dev

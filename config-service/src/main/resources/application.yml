@@ -4,7 +4,12 @@ spring:
   application:
     name: config-service
   cloud:
-    config:
-      server:
-        git:
-          uri:
+      config:
+        server:
+          git:
+            uri: https://56tj.5upm.net/git/OilCardService.git
+            search-paths: config-repo
+            #search-paths: config-repo-tst
+            username: terjoy
+            password: terjoy#$123456
+        label: master
